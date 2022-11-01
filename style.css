@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
+.page-header{
+    display: flex;
+    margin-top: 10px;
+
+}
+.main-menu{
+    flex-grow: 1;
+}
+.main-menu-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.main-menu-list a{
+    font-size: 30px;
+    line-height: 70px;
+    color: #2a3d8f;
+}
+.main-menu-list a:hover{
+    color: #3893cc;
+}
+.footer-wrapper{
+    background-color: #b5d4c5;
+}
+.page-footer{
+    display: flex;
+    padding: 35px 0;
+    color: black;
+    justify-content: space-evenly;
+}
+.hashtag{
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+.footer-social{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.social-button{
+    margin: 0 10px;
+    line-height: 22px;
+}
+.copyright{
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+h2{
+    color: #2a3d8f;
+    font-size: 36px;
+    line-height: 50px;
+    margin: 30px 0;
+}
+h3{
+    font-size: 30px;
+    line-height: 40px;
+    margin: 30px 0;
+}
+.slogan{
+    background: url("img/innsbruck1.png") center/cover no-repeat;
+    height: 558px;
+}
+.slogan h1{
+    font-size: 60px;
+    padding-top: 240px;
+    color: white;
+    line-height: 80px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.about-numbers-list{
+    list-style: none;
+    padding-left: 20px;
+}
+.about-numbers-list li::before{
+    content: "✓";
+    margin-right: 3px;
+}
+.marketing{
+    display:flex;
+    flex-direction: column;
+    background: url("img/skier.png") center/cover no-repeat;
+    width: 30%;
+    text-transform: uppercase;
+}
+.marketing p{
+    font-size: 2vw;
+    padding: 5px;
+    line-height: 33px;
+}
+.marketing a{
+    display: inline-block;
+    align-self: flex-end;
+    background-color: #fff;
+    opacity: 0.7;
+    color: black;
+    padding: 5px 10px;
+    margin-top: 60px;
+}
+.about-weather-graph{
+    display:flex;
+    flex-direction: column;
+    border: thin solid grey;
+
+}
+.about-weather-graph figcaption{
+    background-color: #666666;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    line-height: 33px;
+    font-size: 22px;
+}
+.gallery-list{
+    display: flex;
+    flex-flow: column ;
+    list-style: none;
+}
+.gallery-item{
+    display: flex;
+    background-color: #b5d4c5;
+    color: white;
+    margin-bottom: 10px;
+    min-height: 280px;
+    align-items: center;
+    justify-content: space-between;
+}
+.gallery-item h3{
+    flex-grow: 1;
+    text-align: center;
+    text-transform: uppercase;
+}
+.transfer{
+    margin: 15px auto;
+    border-collapse: collapse;
+}
+.transfer th{
+    background-color: rgb(32,46,92);
+    color:#fff;
+}
+.transfer th,td{
+    border: 1px solid black;
+    width: 25%;
+    padding: 5px;
+    text-align: center;
+}
+.transfer span{
+    display: none
+}
+.map p{
+    margin-top: 10px;
+}
+.transfer tbody tr:nth-child(odd) {
+    background-color: rgb(224, 223, 223);
+}
+.transfer tbody tr:nth-child(even){
+    background-color: rgb(213, 231, 255);
+}
+.transfer tbody td:first-child{
+    text-align: left;
+}

@@ -1,0 +1,113 @@
+@media(max-width: 1200px){
+    .container{
+        width:90%;
+    }
+    .main-menu a{
+        font-size: 24px;
+    }
+    .slogan h1{
+        font-size: 40px;
+    }
+    .gallery-item{
+        flex-direction: column;
+    }
+    .gallery-item:nth-child(2){
+        flex-direction: column-reverse;
+    }
+    .gallery-item img{
+        width: 100%;
+    }
+    .gallery-item h3{
+        line-height: 15vw;
+    }
+    iframe{
+        width: 100%;
+    }
+}
+@media(max-width: 400px){
+    .page-header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-menu{
+        width: 100%;
+    }
+    .main-menu-list{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-menu-list li{
+        border-bottom: 1px solid rgb(211, 211, 211);
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .main-menu-list a{
+        line-height: 40px;
+        font-size: 20px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .slogan h1{
+        padding-top: 200px;
+    }
+    .wrapper{
+        flex-direction: column;
+    }
+    .marketing{
+        width:100%;
+    }
+    .marketing p{
+        font-size: 3vw;
+    }
+    .about-weather-graph figcaption{
+        font-size: 13px;
+    }
+    .transfer{
+        width: 100%
+    }
+    .transfer tbody tr:nth-child(odd) {
+        background-color: white;
+    }
+    .transfer tbody tr:nth-child(even){
+        background-color: white;
+    }
+    .transfer tbody td:first-child{
+        text-align: center;
+    }
+    .transfer tr{
+        display: flex;
+        flex-flow: row wrap;
+        margin-bottom: 20px;
+    }
+    .transfer thead{
+        display: none;
+    }
+    
+    .transfer td{
+        width: 45%;
+        padding: 0;
+        line-height: 32px;
+    }
+    .transfer span{
+        display: block;
+        background-color: rgb(187, 216, 255);
+        text-transform: uppercase;
+        color: rgb(114, 114, 114);
+        padding: 5px 0;
+        font-size: 10px;
+    }
+    .page-footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-social{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
